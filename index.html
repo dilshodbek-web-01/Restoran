@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--BT ICON  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Restoran</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav
+          class="nav d-flex align-items-center justify-content-between text-light"
+        >
+          <img src="./images/LOGO.svg" alt="LOGO" />
+          <div class="book d-flex align-items-center d-sm-none d-md-none d-lg-flex d-none">
+            <ul
+              class="nav__ul d-flex align-items-center justify-content-between w-50 list-unstyled"
+            >
+              <li class="nav__ul--lists">
+                <a
+                  href="#"
+                  class="nav__ul--lists-item text-decoration-none fw-bold text-light"
+                  >ГЛАВНАЯ</a
+                >
+              </li>
+              <li class="nav__ul--lists">
+                <a
+                  href="#"
+                  class="nav__ul--lists-item text-decoration-none fw-bold text-light"
+                  >МЕНЮ</a
+                >
+              </li>
+              <li class="nav__ul--lists">
+                <a
+                  href="#"
+                  class="nav__ul--lists-item text-decoration-none fw-bold text-light"
+                  >О НАС</a
+                >
+              </li>
+              <li class="nav__ul--lists">
+                <a
+                  href="#"
+                  class="nav__ul--lists-item text-decoration-none fw-bold text-light"
+                  >БРОНЬ</a
+                >
+              </li>
+            </ul>
+
+            <div class="icon-cart d-flex">
+              <img class="cart" src="./images/cart.svg" alt="cart" />
+              <hr class="line" />
+            </div>
+
+            <div class="phone ms-5">
+              <div class="tel d-flex">
+                <img src="./images/phone.svg" alt="phone" />
+                <p class="number fw-bold lh-base">+999-888-76-54</p>
+              </div>
+              <p class="phone-text fw-normal lh-sm">
+                Свяжитесь с нами для бронирования
+              </p>
+            </div>
+
+            <a
+              href="#"
+              class="link d-block text-decoration-none fw-bold lh-base text-light"
+              >ЗАКАЗ СТОЛИКА</a
+            >
+          </div>
+          <i class="bi bi-list fs-1 text-warning d-lg-none d-md-block d-sm-block d-block "></i>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <div class="container">
+          <div class="view">
+            <h2 class="view-title fw-normal">Добро пожаловать в</h2>
+            <h1 class="view-title2 fw-normal">Наш ресторан</h1>
+            <div class="dom d-flex text-light">
+              <hr class="line2 mt-2" />
+              <h4 class="view-text fw-normal mx-2">ДОМ ЛУЧШЕЙ ЕДЫ</h4>
+              <hr class="line2 mt-2" />
+            </div>
+            <a
+              href="#"
+              class="view-link text-decoration-none text-light fw-bold lh-sm"
+              >VIEW MENU</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- ========= BOXS START ======== -->
+      <section>
+        <div class="container">
+          <ul class="boxs d-flex justify-content-between w-100">
+            <li class="boxs-box bg-light text-center list-unstyled">
+              <img
+                src="./images/Mask-food.svg"
+                alt="Mask-food"
+                class="food-icon"
+              />
+              <h3 class="box-title fw-normal mb-4">
+                Магическая <strong class="orange fw-lighter">Атмосфера</strong>
+              </h3>
+              <h4 class="box-text">
+                В нашем заведении царит магическая атмосфера наполненная
+                вкусными ароматами
+              </h4>
+            </li>
+
+            <li class="boxs-box bg-light text-center list-unstyled">
+              <img
+                src="./images/Mask-food.svg"
+                alt="Mask-food"
+                class="food-icon"
+              />
+              <h3 class="box-title fw-normal mb-4">
+                Лучшее качество <strong class="orange fw-lighter">Еды</strong>
+              </h3>
+              <h4 class="box-text">Качество нашей Еды - отменное!</h4>
+            </li>
+
+            <li class="boxs-box extra-box bg-light text-center list-unstyled">
+              <img
+                src="./images/Mask-food.svg"
+                alt="Mask-food"
+                class="food-icon"
+              />
+              <h3 class="box-title fw-normal mb-4">
+                Недорогая <strong class="orange fw-lighter">Еда</strong>
+              </h3>
+              <h4 class="box-text extra-width">
+                Стоимость нашей Еды зависит только от ее количества. Качество
+                всегда на высоте!
+              </h4>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- ========= BOXS END ======== -->
+
+      <!-- ========= HISTORY START ======== -->
+      <section>
+        <div class="container">
+          <div class="history d-flex">
+            <div class="history-right">
+              <h2 class="history-title ms-5 mb-3 fw-normal">
+                Наша <span class="istoriya">История</span>
+              </h2>
+              <p class="history-text fw-normal fs-4 text-center">
+                Как и у любого другого самобытного места, у нас есть своя,
+                особая история. Идея ресторана пришла основателям неожиданно. Во
+                время прогулки по лесу создатель нашего ресторана застрял в
+                сотнях километров от ближайшего населенного пункта. Вдали от
+                цивилизации и связи им пришлось навремя обустровать себе
+                нехитрый быт, добывать и готовить себе еду.
+              </p>
+
+              <ul class="numbers d-flex justify-content-between ms-3">
+                <li class="numbers-lists list-unstyled">
+                  <h4 class="numbers-lists-title fw-normal text-center">93</h4>
+                  <p
+                    class="numbers-lists-text text-center fs-5 fw-normal text-dark"
+                  >
+                    Напитки
+                  </p>
+                </li>
+
+                <li class="numbers-lists list-unstyled">
+                  <h4 class="numbers-lists-title fw-normal text-center">206</h4>
+                  <p
+                    class="numbers-lists-text text-center fs-5 fw-normal text-dark"
+                  >
+                    Еда
+                  </p>
+                </li>
+
+                <li class="numbers-lists list-unstyled">
+                  <h4 class="numbers-lists-title fw-normal text-center">71</h4>
+                  <p
+                    class="numbers-lists-text text-center fs-5 fw-normal text-dark"
+                  >
+                    Закуски
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="pictures">
+              <img
+                src="./images/design-box-pink.jpg"
+                alt="design-box-pink"
+                class="pink"
+              />
+              <img src="./images/cake.jpg" alt="cake" class="cake" />
+              <img
+                src="./images/home-decor.jpg"
+                alt="home-decor"
+                class="home-decor"
+              />
+              <img src="./images/foods.jpg" alt="foods" class="foods" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========= HISTORY END ======== -->
+
+      <!-- ========= ORDER START ======== -->
+      <section class="apple">
+        <div class="container">
+          <div class="order d-flex justify-content-between align-items-center">
+            <div class="order-text">
+              <h2 class="order-title fw-normal">
+                Отпразднуйте в одном из самых лучших ресторанов.
+              </h2>
+              <p class="order-text fw-bold text-light">
+                Только в этом месяце бизнес-ланч от 250 ₽
+              </p>
+            </div>
+            <a
+              href="#"
+              class="order-link text-decoration-none text-light fw-bold lh-sm align-items-center"
+              >ЗАКАЗ СТОЛИКА</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- ========= ORDER END ======== -->
+
+      <!-- ========= GAMBURGER START ======== -->
+      <section>
+        <div class="container">
+          <div class="gamburger">
+            <h1 class="gamburger-title text-center fw-normal text-dark">
+              Наши <strong class=" orange">Блюда</strong>
+            </h1>
+            <div class="gamburger-price d-flex">
+              <div class="row">
+                <div class="col-7">
+                  <img src="./images/full-pizza.jpg" alt="full-pizza">
+                </div>
+                <div class="col-1">
+                  <img class="mini-gam" src="./images/hamburger.jpg" alt="hamburger">
+                  <img class="mini-gam" src="./images/hamburger.jpg" alt="hamburger">
+                  <img class="mini-gam" src="./images/hamburger.jpg" alt="hamburger">
+                </div>
+              </div>
+              <div class="gamburger-text">
+                <div class="price d-flex mt-5">
+                  <h4 class="price-title fw-normal ">Гамбургер мини</h4>
+                  <img src="./images/Vector.dotted.svg" alt="Vector.dotted" class="dotted">
+                  <p class="price-value fw-normal">220 ₽</p>
+                </div>
+                <div class="price price2 d-flex mt-5">
+                  <h4 class="price-title fw-normal ">Гамбургер мини</h4>
+                  <img src="./images/Vector.dotted.svg" alt="Vector.dotted" class="dotted">
+                  <p class="price-value fw-normal">220 ₽</p>
+                </div>
+                <div class="price price3 d-flex mt-5">
+                  <h4 class="price-title fw-normal ">Гамбургер мини</h4>
+                  <img src="./images/Vector.dotted.svg" alt="Vector.dotted" class="dotted">
+                  <p class="price-value fw-normal">220 ₽</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========= GAMBURGER END ======== -->
+
+      <!-- ========= CARD-MENU START ======== -->
+      <section class="wrapper-bgi">
+        <div class="container">
+          <div class="wrapper">
+            <h2 class="wrapper-title text-light fw-normal text-center">
+              Наше меню
+            </h2>
+
+            <ul class="cards d-flex justify-content-between w-100 list-unstyled">
+
+              <li class="cards-card bg-light">
+                <div class="picture d-flex">
+                  <img
+                    class="hamburger"
+                    src="./images/abstract-humburger.svg"
+                    alt="abstract-humburger"
+                  />
+                  <div
+                    class="round border border-5 border-light text-light text-center"
+                  >
+                    <p class="in-number fw-normal mt-4">420</p>
+                  </div>
+                </div>
+                <h3 class="card-title fw-normal mt-3 mb-3">Гамбургер макси</h3>
+                <p class="card-text fw-normal fs-5 text-center lh-sm mb-5">
+                  Максимально толстый слой мяса
+                </p>
+                <a
+                  class="card-link text-decoration-none shadow-xl text-light"
+                  href="#"
+                  >ЗАКАЗАТЬ</a
+                >
+              </li>
+
+              <li class="cards-card bg-light">
+                <div class="picture d-flex">
+                  <img
+                    class="hamburger"
+                    src="./images/abstract-humburger.svg"
+                    alt="abstract-humburger"
+                  />
+                  <div
+                    class="round border border-5 border-light text-light text-center"
+                  >
+                    <p class="in-number fw-normal mt-4">420</p>
+                  </div>
+                </div>
+                <h3 class="card-title fw-normal mt-3 mb-3">Гамбургер макси</h3>
+                <p class="card-text fw-normal fs-5 text-center lh-sm mb-5">
+                  Максимально толстый слой мяса
+                </p>
+                <a
+                  class="card-link text-decoration-none shadow-xl text-light"
+                  href="#"
+                  >ЗАКАЗАТЬ</a
+                >
+              </li>
+
+              <li class="cards-card bg-light">
+                <div class="picture d-flex">
+                  <img
+                    class="hamburger"
+                    src="./images/abstract-humburger.svg"
+                    alt="abstract-humburger"
+                  />
+                  <div
+                    class="round border border-5 border-light text-light text-center"
+                  >
+                    <p class="in-number fw-normal mt-4">420</p>
+                  </div>
+                </div>
+                <h3 class="card-title fw-normal mt-3 mb-3">Гамбургер макси</h3>
+                <p class="card-text fw-normal fs-5 text-center lh-sm mb-5">
+                  Максимально толстый слой мяса
+                </p>
+                <a
+                  class="card-link text-decoration-none shadow-xl text-light"
+                  href="#"
+                  >ЗАКАЗАТЬ</a
+                >
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- ========= CARD-MENU END ======== -->
+
+      <!-- =========== PERSON START ========== -->
+      <section class="person">
+        <div class="container">
+          <div class="person-wrapper text-center">
+            <p class="person-text fw-normal fs-5 fst-italic lh-base mx-auto">
+              Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+            </p>
+            <img class="person-picture mb-4" src="./images/beard-person.svg" alt="beard-person">
+            <h5 class="person-work fs-5 lh-base fw-bolder">Посетитель</h5>
+            <p class="person-name fw-light fs-5 lh-base">Николай</p>
+          </div>
+        </div>
+      </section>
+      <!-- =========== PERSON START ========== -->
+
+      <!-- ========== GRID SYSTEM START ======= -->
+      <section>
+        <div class="container">
+          <div class="galareya">
+            <h2 class="galareya-text fw-normal text-center">Галерея <strong class="orange fw-normal">Блюд</strong></h2>
+            <div class="grid-container">
+               <div class="grid-item"><img src="./images/table.jpg" alt="table">
+               </div>
+               <div class="grid-item"><img src="./images/coffee.jpg" alt="coffee">
+               </div>
+               <div class="grid-item"><img src="./images/goulash.jpg" alt="goulash">
+               </div>
+               <div class="grid-item"><img src="./images/goulash.jpg" alt="goulash"></div>
+               <div class="grid-item"><img src="./images/coffee.jpg" alt="coffee"></div>
+               <div class="grid-item"><img src="./images/table.jpg" alt="table"></div>
+            </div>
+
+            <h2 class="galareya-text fw-normal text-center">Наши <strong class="orange fw-normal">Повара</strong></h2>
+            <div class="cooker justify-content-between d-flex">
+              <img src="./images/cook.jpg" alt="cook">
+              <img src="./images/pizza.jpg" alt="pizza">
+              <img src="./images/cooker-boy.jpg" alt="cooker-boy">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========== GRID SYSTEM START ======= -->
+    </main>
+    <footer class="footer"></footer>
+  </body>
+</html>
